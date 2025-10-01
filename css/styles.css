@@ -10876,7 +10876,7 @@ html {
 }
 .divider-custom .divider-custom-icon {
   font-weight: 500;
-  color: var(--bs-yellow);
+  color: #fff;
   font-size: 2rem;
   padding: 30px;
 }
