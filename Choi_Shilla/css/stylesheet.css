@@ -1,0 +1,399 @@
+
+
+/* 헤드 */
+
+.wrap {
+
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    top: 0;
+    z-index: 1000;
+    line-height: 48px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.head_logo {
+    text-align: center;
+
+}
+
+/* //헤드 */
+
+/* 네비 */
+.nav {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 80px;
+    padding-top: 20px;
+    padding-bottom: 16px;
+
+}
+
+.nav a {
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+nav ul li a:hover {
+    transition: 0.2s;
+    color: #7C2026;
+    border-bottom: 6px solid #7C2026;
+
+}
+/* //네비 */
+
+/* 메인비쥬얼 */
+
+.sec-visual img {
+    height: auto;
+
+}
+
+.swiper {
+    width: auto;
+
+}
+
+.swiper-pagination-bullet {
+    background: rgba(255, 255, 255, 0.5);
+}
+.main-slider .swiper-pagination-bullet-active {
+    width: 30px;
+    border-radius: 4px;
+}
+
+/* //메인비쥬얼 */
+
+/* 배너 */
+
+.sec-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.title_event {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    color: #7C2026;
+}
+
+.sec-banner .box {
+    width: 100%;
+}
+/* //배너 */
+
+/* 굿즈 */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.sec-goods {
+    height: 800px;
+    margin-top: -10px;
+    padding-top: 20px;
+
+}
+
+.sec-event h2,
+.sec-goods h2 {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    color: #7C2026;
+}
+
+.sec-goods .img-area img {
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.sec-goods article .img-area p {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 800;
+}
+
+.sec-goods article .img-area p:hover {
+    transition: 0.2s;
+    color: brown;
+    border-bottom: 10px solid;
+    border-radius: 0;
+
+}
+
+/* .sec-goods article .img-area img:hover {
+    
+    transition: 1s;
+    transform:  scale(1.02);
+    
+} */
+
+/* //굿즈 */
+
+/* 호두배너 */
+
+.sec-visual2 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* //호두배너 */
+
+/* 이벤트 */
+
+.sec-event {
+    margin-top: -10px;
+    padding-top: 20px;
+    background-color: #D6BFA4;
+
+}
+
+.event_container {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 1600px;
+    margin: 0 auto;
+
+}
+
+.sec-event article img {
+    }
+
+.sec-event .event_container img {
+    width: 320px;
+    height: 250px;
+}
+
+.sec-event .event_container p {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+
+/* //이벤트 */
+
+/* 비쥬얼 이미지 */
+.sec-visual3 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.sec-visual3 a img {
+    width: 100%;
+    height: 500px;
+}
+
+/* //비쥬얼 이미지 */
+
+/* 푸터 */
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+footer a img {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.foottext-area {
+    font-size: 0.9rem;
+    padding-top: 20px;
+}
+
+footer p {
+    font-size: 0.8rem;
+    opacity: 0.4;
+    padding-bottom: 10px;
+}
+
+/* //푸터 */
+
+/* 서브페이지 */
+
+.header {
+    padding: 10px 20px;
+}
+
+.breadcrumb {
+    font-size: 14px;
+    color: #777;
+}
+
+.breadcrumb a {
+    color: #777;
+    text-decoration: none;
+}
+
+.banner {
+    margin-top: 20px;
+    border-bottom: 2px solid #eee;
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    padding: 0;
+    gap: 20px;
+}
+
+.banner-left {
+
+    background: #7C2026;
+
+    flex: 2;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-left h2 {
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.banner-left img {
+
+    width: 180px;
+
+}
+
+.new-products h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background: #006c4c;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.product-grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.product-card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+}
+
+.product-card img {
+    width: 100%;
+    height: 75%;
+    border-radius: 8px;
+}
+
+.product-card p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.center {
+    line-height: 120px;
+}
+
+.center p {
+    font-size: 1.5rem;
+}
+
+.center p:hover {
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.2s;
+    color: brown;
+
+}
+
+.product-grid p {
+    font-size:;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+/*반응형 767px*/
+@media screen and (max-width:767px) {
+
+    nav {
+        display: none;
+    }
+    .head_logo {
+        display: none;
+    }
+    section {
+        flex-direction: column;
+    }
+    .sec-goods .container {
+        max-width: 30%;
+        
+        flex-direction: column;
+    }
+    .sec-goods .container p {
+        display: none;
+    }
+
+    .sec-visual3 img {
+        display: none;
+    }
+
+}
+/*반응형 1240px*/
+@media screen and (max-width:1240px) {
+
+    nav {}
+    .head_logo {
+        display: none;
+    }
+
+    .sec-goods .container {
+        width: 100%;
+        gap: 20px;
+
+    }
+    .sec-goods .container p {
+        display: none;
+
+    }
+
+    .sec-visual3 img {
+        display: none;
+    }
+
+}

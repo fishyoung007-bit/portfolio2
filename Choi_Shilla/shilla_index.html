@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>신라명과</title>
+        <link rel="stylesheet" href="./css/stylesheet.css">
+        <link rel="stylesheet" href="./css/reset.css">
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    </head>
+    <body>
+        <main >
+            <!-- 헤더 -->
+            <div class="wrap">
+                <header>
+                    <div class="head_logo">
+                        <a href="#">
+                            <img src="./img/head_logo.png" alt="headlogo">
+                        </a>
+                    </div>
+                </header>
+                <!-- //헤더 -->
+
+                <!-- 네비 -->
+                <nav>
+                    <ul class="nav">
+                        <li>
+                            <a href="#">신라명과</a>
+                        </li>
+                        <li>
+                            <a href="#">메뉴</a>
+                        </li>
+                        <li>
+                            <a href="#">소식</a>
+                        </li>
+                        <li>
+                            <a href="#">매장안내</a>
+                        </li>
+                        <li>
+                            <a href="#">창업안내</a>
+                        </li>
+                        <li>
+                            <a href="#">고객의 소리</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- //네비 -->
+
+            <!-- 메인 비쥬얼 섹션 -->
+            <section class="sec-visual swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <a href="#none"><img src="./img/main_banner.png" alt="banner"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#none"><img src="./img/main_banner2.png" alt="banner"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#none"><img src="./img/main_banner3.png" alt="banner"></a>
+                    </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <!-- <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div> -->
+
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </section>
+
+            <script>
+
+                const swiper = new Swiper('.swiper', {
+                    // Optional parameters
+                    direction: 'horizontal',
+                    loop: true,
+
+                    // If we need pagination
+                    pagination: {
+                        el: '.swiper-pagination'
+                    },
+
+                    // Navigation arrows navigation: {     nextEl: '.swiper-button-next',
+                    // prevEl: '.swiper-button-prev' }, 자동슬라이드
+                    autoplay: {
+                        delay: 3500
+                    }
+
+                });
+            </script>
+
+            <!-- //메인 비쥬얼 섹션 -->
+            <!-- 배너 섹션 -->
+            <section class="sec-banner">
+                <div class="box">
+                    <a href="#none">
+                        <img src="./img/headbanner_1.png">
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="#none">
+                        <img src="./img/headbanner_2.png">
+                    </a>
+                </div>
+            </section>
+            <!-- //배너 섹션 -->
+
+            <!-- 제품 섹션 -->
+            <section class="sec-goods">
+                <h2>인기 판매 상품</h2>
+                <div class="container">
+                    <article>
+                        <a href="#none">
+                            <div class="img-area">
+                                <img src="./img/goods1.png" alt="image">
+                                <p>허니버터 카스테라</p>
+                            </div>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="#none">
+                            <div class="img-area">
+                                <img src="./img/goods2.png" alt="image">
+                                <p>호밀빵(플러스)</p>
+                            </div>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="#none">
+                            <div class="img-area">
+                                <img src="./img/goods3.png" alt="image">
+                                <p>브라우니 쿠키세트</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </section>
+
+            <!-- //제품 섹션 -->
+
+            <!-- 주력 제품배너 섹션 -->
+
+            <div class="title_event">
+                <h2>SHILLA EVENT</h2>
+            </div>
+
+            <section class="sec-banner">
+
+                <div class="box">
+                    <a href="#none">
+                        <img src="./img/event_banner1.png">
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="#none">
+                        <img src="./img/event_banner2.png">
+                    </a>
+                </div>
+            </section>
+
+            <!-- //이벤트 섹션 -->
+            <section class="sec-visual3">
+                <a href="#none">
+                    <img src="./img/footimage.png" alt="mainvisual">
+                </a>
+            </section>
+        </main>
+        <!-- 푸터 -->
+        <footer>
+            <a href="#none">
+                <img src="./img/foot-logo.png" alt="image">
+            </a>
+            <div class="foottext-area">
+                개인정보취급방침|이용약관|이메일무단수집거부<br>
+                ㈜신라명과|대표 : 박창훈|사업자등록번호 : 123-81-12055|주소 : 경기도 안양시 덕천로 72번길 30 신라명과<br>
+                대표번호 : 031-444-0404 | 팩스번호 : 031- 443-0965 | 개인정보관리책임자 : 천명용<br><br><br>
+            </div>
+            <p>Copyright ⓒ 2019 SHILLA BAKERY. All Rights Reserved.</p>
+        </footer>
+        <!-- //푸터 -->
+
+    </body>
+</html>
