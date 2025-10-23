@@ -10979,15 +10979,17 @@ html {
   padding: 30px;
 }
 
+/* 버튼 크기, 색상 */
 .divider-custom .divider-custom-icon a {
   border: 1px;
-  border-radius: 24px;
-  background-color: #ddd;
+  border-radius: 6px;
+  background-color: #ffc107;
   padding-left: 25px;
   padding-right: 25px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 
 
 

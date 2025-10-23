@@ -4,8 +4,10 @@ body {
     box-sizing: border-box;
     font-family: sans-serif;
     font-size: inherit;
+    overflow-x: hidden;
 
 }
+
 
 .banner,
 .hr_container {
@@ -58,7 +60,7 @@ header {
     margin-top: 17px;
     margin-bottom: 28px;
     height: 480px;
-    background: #AFC131;
+    /* background: #AFC131; */
     display: flex;
     justify-content: center;
     align-items: normal;
